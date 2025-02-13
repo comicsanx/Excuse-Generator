@@ -1,5 +1,76 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Lexend', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px; 
+    
+   
+    background-image: url('https://educacion.ufm.edu/wp-content/uploads/2014/01/katsushika_hokusai_-_thirty-six_views_of_mount_fuji-_the_great_wave_off_the_coast_of_kanagawa_-_google_art_project-1024x703.jpg');
+    background-size: cover;
+    background-position: center;
+  }
 
-body{
-    background: blue;
-}
+  body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(143, 251, 255, 0.466); 
+    z-index: 0; 
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #00686b; 
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #ff8a5c;
+  }
+  
+  button {
+    background-color:#ff8a5c;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ff8a5c8e;
+  }
+  
