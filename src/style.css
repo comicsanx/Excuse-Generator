@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Lexend', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px; 
+    background-image: url('https://www.wallart.com/media/catalog/product/cache/5b18b93ddbe5d6592c6b175f41d24454/w/1/w13122-small.jpg'),
+    radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.3) 75%, rgba(0, 0, 0, 0.589) 100%);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+  }
+
+
+  
+  .container {
+    background-color: rgb(7, 26, 45);
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 12px 15px rgba(6, 18, 29, 0.685);
+    width: 100%;
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #4a8a8f ; 
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #ffce85;
+  }
+  
+  button {
+    background-color:#4a8a8f;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  button:hover {
+    background-color: #ffce85;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.432);
+  }
+  
