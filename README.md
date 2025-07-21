@@ -1,27 +1,34 @@
 <!-- hide -->
 # Excuse Generator
 
-A playful excuse generator built with JavaScript, Bootstrap, and CSS. It randomly combines different sentence parts to create excuses on the fly.
+<p>A playful excuse generator built with JavaScript, Bootstrap, and CSS. It randomly combines different sentence parts to create excuses on the fly.</p>
 
 ## 🔍 Features
-Generates random excuses by combining:
-
-Subject
-Verb
-Direct object
-Circumstantial place
-
-Fully styled using Bootstrap and custom CSS
-Simple and responsive front-end interface
-Fun and reusable logic written in vanilla JavaScript
+<ul>
+  <li>Generates random excuses by combining:
+    <ul>
+      <li>Subject</li>
+      <li>Verb</li>
+      <li>Direct object</li>
+      <li>Circumstantial place</li>
+    </ul>
+  </li>
+  <li>Fully styled using Bootstrap and custom CSS</li>
+  <li>Simple and responsive front-end interface</li>
+  <li>Fun and reusable logic written in vanilla JavaScript</li>
+</ul>
 
 ## 🛠️ Technologies Used
-HTML5
-CSS3
-Bootstrap 5
-JavaScript
+<ul>
+  <li>HTML5</li>
+  <li>CSS3</li>
+  <li>Bootstrap 5</li>
+  <li>JavaScript</li>
+</ul>
 
 ## 📌 Notes
-Front-end only
-Built as a creative coding exercise
-Easily customizable — just add more words to the arrays for new combinations!
+<ul>
+  <li>Front-end only</li>
+  <li>Built as a creative coding exercise</li>
+  <li>Easily customizable — just add more words to the arrays for new combinations!</li>
+</ul>
