@@ -3,6 +3,8 @@
 
 <p>A playful excuse generator built with JavaScript, Bootstrap, and CSS. It randomly combines different sentence parts to create excuses on the fly.</p>
 
+Test it here! ➡️ https://vanillajs-hello-git-main-sanxworkshops-projects.vercel.app/
+
 ## 🔍 Features
 <ul>
   <li>Generates random excuses by combining:
@@ -32,3 +34,7 @@
   <li>Built as a creative coding exercise</li>
   <li>Easily customizable — just add more words to the arrays for new combinations!</li>
 </ul>
+
+## 📸 Screenshots
+
+![Excuse Generator](https://github.com/user-attachments/assets/c61f02e0-6662-4f89-b046-41da39364e50)
